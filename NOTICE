@@ -1,0 +1,54 @@
+Crimson Desert RX 580 Fix — Linux / Proton port
+Copyright 2026 njtechyt
+
+This product includes software developed as original work for this project
+(the Proton port, packaging, and documentation), licensed under the Apache
+License, Version 2.0. See LICENSE.
+
+The underlying game fix this port is based on:
+  Vidith007 / RX-580-CRIMSON-DESERT-FIX (Windows)
+  https://github.com/Vidith007/RX-580-CRIMSON-DESERT-FIX
+  Licensed under the Apache License, Version 2.0.
+
+------------------------------------------------------------------------------
+This distribution ALSO contains binaries that are not covered by the Apache
+License, Version 2.0. Redistributing this package means complying with their
+terms as well as Apache-2.0.
+
+  fix/d3d12core.dll
+  fix/d3d12.dll
+      vkd3d-proton, version 3.0.1, MODIFIED.
+      Licensed under the GNU Lesser General Public License, version 2.1
+      or (at your option) any later version.
+      Copyright the vkd3d and vkd3d-proton authors; see
+      fix/licenses/vkd3d-proton-AUTHORS.txt
+      Upstream: https://github.com/HansKristian-Work/vkd3d-proton
+
+      Because these are MODIFIED builds, LGPL-2.1 sections 4 and 6 require
+      the corresponding modified source to accompany them. It is provided
+      as:
+          source/RX580-proton-build.patch
+      applied against upstream tag v3.0.1
+      (verified: applies clean to a pristine v3.0.1 tree).
+
+  Vendored inside the above:
+      dxil-spirv  - MIT - Copyright (c) 2019-2022 Hans-Kristian Arntzen
+                    for Valve Corporation
+      SPIRV-Headers, Vulkan-Headers
+                  - Apache-2.0 / MIT - The Khronos Group Inc.
+
+Full details are in THIRD-PARTY-NOTICES.md.
+------------------------------------------------------------------------------
+
+NOT DISTRIBUTED HERE:
+
+  No Crimson Desert file is modified or redistributed. Crimson Desert is the
+  property of Pearl Abyss Corp. This package contains none of it — not a
+  texture, not a shader, not an executable. The fix works by sitting next to
+  the game's executable directory, which is why uninstalling is just deleting
+  two files.
+
+  No Proton, Wine, driver, or system file is modified or redistributed.
+
+This project is unofficial and unaffiliated with AMD, Valve Corporation or
+Pearl Abyss.

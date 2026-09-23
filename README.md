@@ -49,7 +49,7 @@ remedy, different delivery: no shim, no `.ini`, no Proton files modified.
 | **GPU** | AMD Polaris / GCN4 — RX 470, 480, 570, 580, 590 |
 | **Driver** | A Vulkan-capable driver for your card (Mesa RADV recommended) |
 | **OS** | Linux 64-bit |
-| **Proton** | Any recent Proton / GE-Proton |
+| **Proton** | Any recent Proton / Proton-CachyOS |
 | **Game** | Crimson Desert, PC |
 
 ---
